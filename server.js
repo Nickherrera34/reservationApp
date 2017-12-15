@@ -13,8 +13,6 @@ var port = process.env.PORT || 1000;
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-console.log("working");
-
 // Reservation Tables (DATA)
 // =============================================================
 var reservationList = [
